@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>GIFs as Documentation &mdash; GIFs as Documentation 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="GIFs as Documentation 0.1 documentation" href="#" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="#">GIFs as Documentation 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="gifs-as-documentation">
+<h1>GIFs as Documentation<a class="headerlink" href="#gifs-as-documentation" title="Permalink to this headline">¶</a></h1>
+<p>This is a short guide to using GIFs <em>in</em> documentation and <em>as</em> documentation.
+Animated GIFs are a great tool for making documentation, but it takes some special care and attention to make them work.</p>
+<p>This guide was started on May 16, 2015 by Daniel D. Beck on his flight to Portland, Oregon
+en route to attend the Write the Docs conference.
+Your contributions to this guide are welcome!
+If you have a suggestion to improve this guide, please <a class="reference external" href="https://www.github.org/ddbeck/gifs-as-documentation/issues">open an issue on GitHub</a> or <a class="reference external" href="https://twitter.com/ddbeck">tweet &#64;ddbeck</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This guide will use &#8220;animated GIF&#8221; and &#8220;GIF&#8221; interchangeably.
+GIFs aren&#8217;t necessarily animated, but this guide is only considering GIFs that are animated.</p>
+</div>
+<div class="section" id="why-gifs">
+<h2>Why GIFs?<a class="headerlink" href="#why-gifs" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id17">
+<img alt="_images/tumblr.gif" src="_images/tumblr.gif" />
+<p class="caption"><span class="caption-text">As Tumblr knows, GIFs are a lot of fun.</span></p>
+</div>
+<p>Despite &#8220;animated GIF&#8221; conjuring up something frivolous, animation in general has a long history of being used to
+to do everything from <a class="reference external" href="http://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)">telling fairy tales</a> to helping people understand <a class="reference external" href="https://www.youtube.com/watch?v=aW5ozq4Tqew">complicated technical subjects</a>.
+GIFs, as a specific form of short animation, have many strengths that make them a good tool for technical communicators:</p>
+<ul class="simple">
+<li>GIFs are much easier to make than high definition video.
+GIFs have lower audience expectations, because GIFs are silent and often grainy, short, and low-resolution.
+A series of animated GIFs can be made at lower cost than making a full-length video.</li>
+<li>GIFs can be used for numerous contexts.
+GIFs can instruct users, illustrate problems for customer support, or mockup a new idea for the design process.</li>
+<li>GIFs support content reuse.
+A GIF made for documentation can be reused in marketing or support contexts (and vice-versa).</li>
+<li>Animated GIFs do not have the negative associations of auto-playing video (because they&#8217;re intrinsically silent).
+With a GIF, you can get away with showing something to a viewer that they might not otherwise have been receptive to.</li>
+<li>Compared to traditional web video, GIFs are relatively frictionless from the perspective of your audience.
+Unlike a YouTube video, there&#8217;s no need to click play, because browsers automatically load and run GIFs.
+GIFs are natively supported by effectively all browsers, unlike many video formats and players,
+so your audience doesn&#8217;t need to install a plugin to see it.</li>
+<li>Compared to a sequence of still images, GIFs are less cognitively demanding.
+Your viewer doesn&#8217;t have to mentally interpolate frames between still images, because the frames actually exist.
+For example, trying to follow step-by-step drawings of how to tie a knot can be much more challenging than watching
+an animated equivalent.</li>
+<li>GIFs can be embedded pretty much anywhere and be reasonably expected to work.
+So you can use a GIF in a technical document just as easily as in a tweet or an email.</li>
+<li>GIFs can be used as prototypes or storyboards for full-scale video production.
+You can use GIFs to make a proof-of-concept for a video or as part of the script writing process.</li>
+<li>Finally, GIFs are fun.
+They can add a dash of excitement, action, or texture that static text and graphics can&#8217;t.</li>
+</ul>
+<p>Of course, GIFs aren&#8217;t ideal for every situation.
+At least for the time being, they&#8217;re useless in print media.
+And for many applications and audiences, they cannot replace traditional video or well-placed still images.
+But with judicious use, you may find that animated GIFs complement your existing documentation tools and skills.</p>
+</div>
+<div class="section" id="guidelines-for-using-gifs">
+<h2>Guidelines for Using GIFs<a class="headerlink" href="#guidelines-for-using-gifs" title="Permalink to this headline">¶</a></h2>
+<p>If you&#8217;re convinced to give GIFs a try, don&#8217;t just start littering your docs with memes and scrolling text.
+Consider these guidelines for using GIFs:</p>
+<ul class="simple">
+<li>GIFs should be <strong>supplementary to</strong> other kinds of documentation
+or be <strong>supplemented by</strong> other kinds of documentation.
+GIFs are rarely a substitute for writing things down.
+Also remember that members of your audience may have reduced vision or blindness.
+An over-dependence on GIFs and video poses serious accessibility problems.
+Screen readers can&#8217;t read images (yet) and it can be difficult to write meaningful alt text for animations.</li>
+<li>GIFs should be used sparingly.
+Many animations visible on screen can be distracting or confusing, especially if they&#8217;re mixed with other text.
+Too much visual noise from competing animations can hinder your audience&#8217;s ability to appreciate anything on screen.</li>
+<li>GIFs should be small.
+GIF isn&#8217;t an efficient image format and GIFs don&#8217;t load particularly gracefully, so keep your file sizes in check.
+If overused, GIFs can cause your page size to balloon out of control,
+to the point that your audience may give up and leave your documentation rather than waiting on your page to load.</li>
+<li>GIFs should be short.
+If you can&#8217;t quickly tell where in the action the animation is (i.e. beginning, middle, or end),
+it&#8217;s hard to learn anything from the animation.
+You can get away with longer animations if you add some kind of signposting
+(e.g., numbered steps, a time stamp, or a pause at the beginning of the sequence),
+but at some point the lack of playback control (e.g., play, pause, and rewind) proves too frustrating,
+even if the GIF&#8217;s file size doesn&#8217;t catch up with you first.</li>
+</ul>
+</div>
+<div class="section" id="kinds-of-gifs">
+<h2>Kinds of GIFs<a class="headerlink" href="#kinds-of-gifs" title="Permalink to this headline">¶</a></h2>
+<p>I&#8217;ve identified or conceived of a few ways GIFs may be used in documentation and as documentation:
+decorative, demonstrative, familiarizing, instructional, and narrative.
+This is probably not comprehensive, but it might help you get started.</p>
+<div class="section" id="decorative">
+<h3>Decorative<a class="headerlink" href="#decorative" title="Permalink to this headline">¶</a></h3>
+<p>Decorative GIFs that don&#8217;t add anything to the subject matter of the documentation per se,
+but serve to connect you and your audience through shared cultural touchstones, jokes, and enthusiasm.
+This is by far the most common way GIFs are used in documentation, but they&#8217;re rarely ever used <em>as</em> documentation
+(except in this document, go figure).</p>
+<p><strong>Patterns:</strong></p>
+<ul class="simple">
+<li>Success or failure intensifiers</li>
+<li>In-jokes</li>
+<li>Memes</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<div class="figure" id="id18">
+<img alt="_images/riker_deal_with_it.gif" src="_images/riker_deal_with_it.gif" />
+<p class="caption"><span class="caption-text">&#8220;Deal With It&#8221; featuring Commander Riker</span></p>
+</div>
+<div class="figure" id="id19">
+<img alt="_images/ron_paul_happening.gif" src="_images/ron_paul_happening.gif" />
+<p class="caption"><span class="caption-text">&#8220;It&#8217;s happening!&#8221; featuring American politician Ron Paul</span></p>
+</div>
+</div>
+<div class="section" id="demonstrative">
+<h3>Demonstrative<a class="headerlink" href="#demonstrative" title="Permalink to this headline">¶</a></h3>
+<p>Demonstrative GIFs show what something is or what it does,
+but without the expectation that the viewer is meant to be able to reproduce the demonstration themselves.
+This is the most common kind of GIF as documentation that I&#8217;ve seen.</p>
+<p><strong>Patterns:</strong></p>
+<ul class="simple">
+<li>Showing the behavior of the end result of a process that your documentation teaches.</li>
+<li>Showing a 360-degree walk around of a product</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><p class="first">The documentation for a Python library I wrote, <a class="reference external" href="http://oraide.rtfd.org/">Oraide</a>, shows how the library simulates someone typing text.
+The GIF doesn&#8217;t show the the interface to produce the results, just the result.
+The GIF alone provides insufficient information for the viewer to do the same.</p>
+<div class="figure" id="id20">
+<img alt="_images/oraide.gif" src="_images/oraide.gif" />
+<p class="caption"><span class="caption-text">Oraide&#8217;s simulated typing demo GIF</span></p>
+</div>
+</li>
+<li><p class="first">The Node.js library <a class="reference external" href="https://github.com/chjj/blessed#blessed">blessed</a> provides an interface for
+generating a graphical user interface (GUI) similar to <a class="reference external" href="http://en.wikipedia.org/wiki/Curses_%28programming_library%29">curses</a>.
+Their README contains a long animated GIF that shows what the library produces (that is to say, the GUI),
+but not the code to produce the interface.
+There&#8217;s no way that a viewer could produce the same results themselves by watching the GIF alone,
+but it does show what the library is capable of doing.</p>
+<div class="figure" id="id21">
+<img alt="_images/blessed.gif" src="_images/blessed.gif" />
+<p class="caption"><span class="caption-text"><cite>blessed</cite> Node.js library demo GIF.
+Thanks to <a class="reference external" href="https://twitter.com/beaugunderson/status/590677562831024130">Beau Gunderson</a> for this example.</span></p>
+<div class="legend">
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="familiarizing">
+<h3>Familiarizing<a class="headerlink" href="#familiarizing" title="Permalink to this headline">¶</a></h3>
+<p>Acquainting the the viewer with something that they&#8217;re going to do themselves,
+but with the expectation that more detail is forthcoming.</p>
+<p><strong>Patterns:</strong></p>
+<ul class="simple">
+<li>The preview GIF that shows the performance of complicated task as an introduction to step-by-step instructions</li>
+<li>The screencast in miniature</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><p class="first">The <a class="reference external" href="http://crochet-gifs.tumblr.com/">Learn to Crochet</a> tumblog uses a familiarization GIF to introduce a detailed series of instructions.
+It shows a process, but not each of the steps needed to do it (that comes in subsequent parts).</p>
+<div class="figure" id="id22">
+<img alt="_images/crochet_familiar.gif" src="_images/crochet_familiar.gif" />
+<p class="caption"><span class="caption-text"><em>Learn to Crochet</em>&#8216;s familiarization GIF.
+Thanks to Jaime Margalotti for this example.</span></p>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="instructional">
+<h3>Instructional<a class="headerlink" href="#instructional" title="Permalink to this headline">¶</a></h3>
+<p>Instructional GIFs show something that the viewer is meant to do themselves.</p>
+<p><strong>Patterns</strong>:</p>
+<ul class="simple">
+<li>Showing a single step of a task with or without annotations</li>
+<li>Showing multiple steps of a task with or without annotations</li>
+<li>The screencast in miniature</li>
+</ul>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li><p class="first">The <a class="reference external" href="http://crochet-gifs.tumblr.com/">Learn to Crochet</a> tumblog uses GIFs to show how to complete each individual step in crocheting.
+Note its effective use of the pause at the end of the GIF.</p>
+<div class="figure" id="id23">
+<img alt="_images/crochet_step.gif" src="_images/crochet_step.gif" />
+<p class="caption"><span class="caption-text">A <em>Learn to Crochet</em> GIF illustrating a single step.
+Thanks to Jaime Margalotti for this example.</span></p>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="narrative">
+<h3>Narrative<a class="headerlink" href="#narrative" title="Permalink to this headline">¶</a></h3>
+<p>Narrative GIFs tell a story.
+Telling a story with a GIF can connect the thing you&#8217;re trying to teach your user on a personal level.
+Narratives help contextualize your documentation in the world that your audience lives in.</p>
+<p><strong>Patterns</strong>:</p>
+<ul class="simple">
+<li>A before-and-after sequence</li>
+<li>Warnings or cautions by showing an incorrect action followed by a negative consequence</li>
+</ul>
+<p><strong>Examples</strong>:</p>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<p class="last">I don&#8217;t actually have an example of this yet, though I do have an idea for doing one myself.</p>
+</div>
+</div>
+</div>
+<div class="section" id="how-to-make-a-gif">
+<h2>How to Make a GIF<a class="headerlink" href="#how-to-make-a-gif" title="Permalink to this headline">¶</a></h2>
+<p>There&#8217;s generally three ways to make a GIF:</p>
+<ul class="simple">
+<li>Record directly to the GIF format</li>
+<li>Record video and convert to GIF</li>
+<li>Convert two or more still images into a GIF animation</li>
+</ul>
+<p>This section attempts to suggest tools and other resources for using such</p>
+<div class="section" id="recording-directly-to-gif">
+<h3>Recording directly to GIF<a class="headerlink" href="#recording-directly-to-gif" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><a class="reference external" href="http://www.cockos.com/licecap/">LICEcap</a> captures part of your screen, like other screencasting software, and saves the result as an animated GIF.
+This is quite possibly the easiest way to make an animated GIF,
+though it&#8217;s only useful for making software-related documentation.</p>
+<p>Platforms: Mac OS X, Windows.</p>
+</li>
+</ul>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Todo</p>
+<p class="last">Get recommendations for an iOS GIF camera</p>
+</div>
+<div class="admonition-todo admonition" id="index-2">
+<p class="first admonition-title">Todo</p>
+<p class="last">Test some Android GIF cameras</p>
+</div>
+</div>
+<div class="section" id="converting-video-to-gif">
+<h3>Converting video to GIF<a class="headerlink" href="#converting-video-to-gif" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><a class="reference external" href="https://www.ffmpeg.org">ffmpeg</a> is a command-line tool that can convert existing video formats (e.g., MP4, QuickTime) to GIF,
+with the option to select specific time sequences and other features.
+<a class="reference external" href="https://gist.github.com/dergachev/4627207">This guide</a> (for Mac OS X, but useful for all platforms) illustrates how you might use ffmpeg for making GIFs.</p>
+<p>Platforms: Linux, Mac OS X, Windows</p>
+</li>
+</ul>
+</div>
+<div class="section" id="converting-still-images-to-gif">
+<h3>Converting still images to GIF<a class="headerlink" href="#converting-still-images-to-gif" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><a class="reference external" href="http://www.imagemagick.org/script/index.php">ImageMagick</a> is a suite of tools for creating and manipulating images.
+The <a class="reference external" href="http://www.imagemagick.org/script/animate.php">animate</a> command can be used to stitch together many individual still images
+(e.g., a series of screenshots or photos) into an animated GIF.
+ImageMagick bindings for many programming languages are also available.</p>
+<p>Platforms: Linux, Mac OS X, Windows</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="additional-resources">
+<h2>Additional resources<a class="headerlink" href="#additional-resources" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tools">
+<h3>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://www.lcdf.org/gifsicle/">Gifsicle</a> is a useful tool for optimizing GIFs.
+It can significantly reduce your GIF&#8217;s file size,
+enabling you to use it bandwidth or file-sized constrained contexts like mobile browsers and Twitter.
+(which imposes a somewhat draconian file size limitation).
+It&#8217;s especially useful in conjuction with other tools that make GIFs,
+because many of them do no optimization of their own.</li>
+<li><a class="reference external" href="http://giphy.com/">Giphy</a> is a search engine for GIFs.
+It&#8217;s great for finding inspiration and decorative GIFs.</li>
+</ul>
+</div>
+<div class="section" id="reading">
+<h3>Reading<a class="headerlink" href="#reading" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://www.inthelibrarywiththeleadpipe.org/2014/using-animated-gif-images-for-library-instruction/">Using Animated GIF Images for Library Instruction</a> by Karl Suhr
+examines using GIFs in the context of information literacy and library instruction.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">GIFs as Documentation</a><ul>
+<li><a class="reference internal" href="#why-gifs">Why GIFs?</a></li>
+<li><a class="reference internal" href="#guidelines-for-using-gifs">Guidelines for Using GIFs</a></li>
+<li><a class="reference internal" href="#kinds-of-gifs">Kinds of GIFs</a><ul>
+<li><a class="reference internal" href="#decorative">Decorative</a></li>
+<li><a class="reference internal" href="#demonstrative">Demonstrative</a></li>
+<li><a class="reference internal" href="#familiarizing">Familiarizing</a></li>
+<li><a class="reference internal" href="#instructional">Instructional</a></li>
+<li><a class="reference internal" href="#narrative">Narrative</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-to-make-a-gif">How to Make a GIF</a><ul>
+<li><a class="reference internal" href="#recording-directly-to-gif">Recording directly to GIF</a></li>
+<li><a class="reference internal" href="#converting-video-to-gif">Converting video to GIF</a></li>
+<li><a class="reference internal" href="#converting-still-images-to-gif">Converting still images to GIF</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#additional-resources">Additional resources</a><ul>
+<li><a class="reference internal" href="#tools">Tools</a></li>
+<li><a class="reference internal" href="#reading">Reading</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2015, Daniel D. Beck.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.4</a>
+      
+      |
+      <a href="_sources/index.txt"
+          rel="nofollow">Page source</a></li>
+    </div>
+
+    
+
+    
+  </body>
+</html>
